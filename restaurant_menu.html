@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blue Whale</title>
+  </head>
+  <body>
+    <header>
+      <img
+        id="header-img"
+        style="margin-left: 7rem"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oaDAo7XXE9ct00jSno7T2n0M3l6rMipVxA&s"
+        alt="blue whale"
+      />
+      <h1 style="margin-left: 2rem">Wecome to Blue Whale 🐳</h1>
+      <nav
+        style="
+          display: flex;
+          flex-direction: row;
+          margin-left: 2rem;
+          background-color: #5867e9;
+          width: 22rem;
+          color: white;
+          border-radius: 2rem;
+          cursor: pointer;
+        "
+      >
+        <h3 style="margin-left: 4rem">#menu</h3>
+        <h3 style="margin-left: 2rem">#order-form</h3>
+      </nav>
+    </header>
+    <main>
+      <h2 style="margin-left: 10rem">Menu</h2>
+      <article>
+        <img
+          style="margin-left: 7rem"
+          width="150"
+          src="https://www.fitmamarealfood.com/wp-content/uploads/2025/05/Blue-Matcha-6.jpg"
+          alt="blue iced matcha"
+        />
+        <h3 style="margin-left: 7rem">Blue Iced Matcha</h3>
+        <p style="width: 16rem; margin-left: 4rem">Made with butterfly pea flower powder this matcha is more floral as opposed to earthy.</p>
+      </article>
+      <article>
+        <img
+          style="margin-left: 7rem"
+          width="150"
+          src="https://www.siftandsimmer.com/wp-content/uploads/2025/07/IMG_3619-2.jpg"
+          alt="blueberry matca"
+        />
+        <h3 style="margin-left: 5.5rem">Blueberry Iced Matcha</h3>
+        <p style="width: 16rem; margin-left: 4rem">Original matcha with a blueberry jam twist. Elegantly creamy, sweet and earthy.</p>
+      </article>
+      <article>
+        <img
+          style="margin-left: 7rem"
+          width="150"
+          src="https://tenzotea.co/cdn/shop/articles/Tenzo_Oct_2_of_4.jpg?v=1666370676"
+          alt="caramel matcha"
+        />
+        <h3 style="margin-left: 5.5rem">Royal Caramel Matcha</h3>
+        <p style="width: 16rem; margin-left: 4rem">
+          A truly royal blend with smooth Tenzo matcha powder. Rich earthy and soft like a cloud... did we mention there's also caramel? 😏
+        </p>
+      </article>
+      <form style="display: flex; flex-direction: column; margin-left: 3rem; margin-bottom: 5rem">
+        <h2 style="margin-left: 5.5rem; margin-top: 3rem">Place Your Order</h2>
+        <label for="blueMa"><input type="checkbox" id="blueMa" name="blueMa" /><b>Iced Matcha</b></label>
+        <span style="margin-top: 1rem">How many?<input style="width: 2rem; margin-left: 1rem" type="number" id="blueMa" min="0" /></span>
+        <h4>Additionals:</h4>
+        <label for=""><input type="radio" name="option1" />maple syrup</label>
+        <label for=""><input type="radio" name="option1" />brown sugar</label>
+        <label style="margin-bottom: 1rem" for=""><input type="radio" name="option1" />no sweetener</label>
+
+        <label for="blueberryMa"><input type="checkbox" id="blueberryMa" name="blueberryMa" /><b>Blueberry Iced Matcha</b></label>
+        <span style="margin-top: 1rem">How many?<input style="width: 2rem; margin-left: 1rem" type="number" id="blueberryMa" min="0" /></span>
+        <h4>Additionals:</h4>
+        <label for=""><input type="radio" name="option2" />maple syrup</label>
+        <label for=""><input type="radio" name="option2" />brown sugar</label>
+        <label style="margin-bottom: 1rem" for=""><input type="radio" name="option2" />no sweetener</label>
+
+        <label for="caramelMa"><input type="checkbox" id="caramelMa" name="caramelMa" /><b>Royal Caramel Matcha</b></label>
+        <span style="margin-top: 1rem">How many?<input style="width: 2rem; margin-left: 1rem" type="number" id="caramelMa" min="0" /></span>
+        <h4>Additionals:</h4>
+        <label for=""><input type="radio" name="option3" />maple syrup</label>
+        <label for=""><input type="radio" name="option3" />brown sugar</label>
+        <label style="margin-bottom: 1rem" for=""><input type="radio" name="option3" />no sweetener</label>
+
+        <h3>Any additional requests?</h3>
+        <textarea style="width: 20rem" name="additional" id="additional" rows="5" maxlength="150"></textarea>
+
+        <input
+          style="
+            text-align: center;
+            width: 10rem;
+            margin-top: 2rem;
+            padding: 0.6rem 1rem;
+            border: none;
+            border-radius: 2rem;
+            background: linear-gradient(135deg, #4f46e5, #6d28d9);
+            color: white;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          "
+          type="submit"
+          value="Go To Checkout"
+        />
+      </form>
+    </main>
+  </body>
+</html>
