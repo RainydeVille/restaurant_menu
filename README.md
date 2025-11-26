@@ -7,9 +7,7 @@ The page showcases a simple layout combining images, menu sections, and an inter
 
 ## 🌊 Live Demo
 
-```bash
-https://rainydeville.github.io/restaurant_menu/
-```
+[🔗 Live Demo](https://rainydeville.github.io/restaurant_menu/)
 
 ---
 
