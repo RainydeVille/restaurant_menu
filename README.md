@@ -80,7 +80,6 @@ It was designed as a warm, friendly landing page with a simple ordering experien
 
 ```bash
 index.html # Main and only file
-images # (Optional) if you later store images locally
 ```
 
 ## 🚀 How to Run Locally
